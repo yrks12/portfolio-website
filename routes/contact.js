@@ -1,22 +1,22 @@
 const express = require('express');
 const router = express.Router();
-const Contact = require('./Contact');
+const Contact = require('../models/Contact');
 
-// POST: Create new contact submission
+// POST /api/contact
 router.post('/', async (req, res) => {
-  const { name, email, message } = req.body;
+    const { name, email, message } = req.body;
+    // Data validation
+    if (!name || !email || !message) {
+        return res.status(400).json({ error: 'All fields are required.' });
+    }
 
-  const newContact = new Contact({
-    name,
-    email,
-    message,
-  });
-  try {
-    const savedContact = await newContact.save();
-    res.status(201).json(savedContact);
-  } catch (error) {
-    res.status(500).json({ message: 'Error saving contact', error });
-  }
+    const contact = new Contact({ name, email, message });
+    try {
+        await contact.save();
+        res.status(201).json({ message: 'Message sent successfully!' });
+    } catch (err) {
+        res.status(500).json({ error: 'Internal server error.' });
+    }
 });
 
 module.exports = router;
