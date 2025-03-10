@@ -1,5 +1,3 @@
-# Dockerfile for Portfolio Website
-
 # Use the official Node.js image
 FROM node:14
 
