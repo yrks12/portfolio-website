@@ -1,21 +1,22 @@
-# Use Node.js as the base image
+# Dockerfile for Portfolio Website
+
+# Use the official Node.js image
 FROM node:14
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
-# Copy package.json and install dependencies
+# Copy package.json and package-lock.json
 COPY package*.json ./
+
+# Install dependencies
 RUN npm install
 
-# Copy application files
+# Copy the rest of the application code
 COPY . .
 
-# Build the React app
-RUN npm run build
-
-# Expose the app on port 5000
+# Expose the server port
 EXPOSE 5000
 
 # Start the application
-CMD [ "node", "server.js" ]
+CMD ["node", "server.js"]
