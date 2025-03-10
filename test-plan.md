@@ -1,30 +1,25 @@
-# Portfolio Website Test Plan
+## Test Plan for Handmade Jewelry E-Commerce Site
 
-## Objective
-Test the functionality, usability, and performance of the Portfolio Website.
+### Objectives
+- Ensure the website meets functional, usability, and performance requirements.
 
-## Scope
-- Home Page
-- Projects Page
-- Contact Page
+### Scope
+- Functional Testing
+- Usability Testing
+- Performance Testing
 
-## Testing Strategies
-- Manual Testing
-- Automated Testing
+### Testing Environment
+- Devices: Desktop, Tablet, Mobile
+- Browsers: Chrome, Firefox, Safari
 
-## Resources Needed
-- Access to web browsers
-- User accounts for testing forms
+### Testing Strategy
+- Use a combination of manual and automated testing approaches.
+- Document all test cases and results.
 
-## Schedule
-Testing will commence on [Start Date] and conclude on [End Date].
+### Risks
+- Potential downtime during testing.
+- APIs may not be fully functional.
 
-## Test Environment
-Testing will be done on Chrome, Firefox, and mobile devices.
-
-## Additional Coverage
-- Ensure to test API endpoints: 
-    - Post Contact Form: /api/contact
-- Review frontend components: AboutMe.js, Projects.js
-- Evaluate backend with MongoDB and Nodemailer functionalities.
-- Test for common usability issues and ensure responsiveness.
+### Schedule
+- Start Date: YYYY-MM-DD
+- End Date: YYYY-MM-DD
