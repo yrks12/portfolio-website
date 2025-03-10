@@ -1,72 +1,51 @@
 # Project Plan for Portfolio Website
 
-## 1. Project Timeline with Milestones
-- **Week 1:** 
-  - **Milestone:** Complete Requirements Gathering and Project Setup
-  - **Tasks:**
-    - Meet with the client to finalize requirements
-    - Set up the project repository and development environment
-    - Create wireframes for the website layout
+## Project Overview
+This project aims to create a simple portfolio website that showcases the client's work and skills. The website will have a modern and clean interface, providing an engaging user experience.
 
-- **Week 2:** 
-  - **Milestone:** Develop Home and Projects Pages 
-  - **Tasks:**
-    - Develop the Home Page:
-      - Implement Hero section
-      - Create About Me section
-      - Add Featured Projects section
-    - Develop the Projects Page:
-      - Design gallery/list format
-      - Add descriptions and links for each project
-      
-- **Week 3:**
-  - **Milestone:** Develop Contact Page and Implement Dark/Light Mode 
-  - **Tasks:**
-    - Create Contact Page:
-      - Implement contact form with required input fields
-      - Ensure form validation and submission functionality
-    - Implement dark/light mode toggle feature across all pages
+## Project Timeline and Milestones
+1. **Week 1:** Requirements gathering and finalizing project features.
+2. **Week 2-3:** Developing the frontend using React.js - setting up the home page and projects page.
+3. **Week 4:** Developing the backend with Node.js and connecting to MongoDB.
+4. **Week 5:** Testing and deployment of the website.
+5. **Week 6:** Evaluation and adjustments based on user feedback.
 
-- **Week 4:** 
-  - **Milestone:** Testing, Optimization, and Deployment 
-  - **Tasks:**
-    - Conduct comprehensive testing (unit, integration, and user acceptance testing)
-    - Optimize website for performance and SEO
-    - Deploy the website on a web hosting platform
+## Task Breakdown with Dependencies
+1. **Requirements Gathering**
+   - Responsible: Client Liaison
+   - Dependencies: None
+2. **Frontend Development**
+   - Home Page (Week 2)
+      - Hero Section
+      - About Me Section
+      - Featured Projects
+   - Projects Page (Week 3)
+   - Dependencies: Finalized requirements.
+3. **Backend Development**
+   - Node.js and Express API (Week 4)
+   - Dependencies: Completed frontend for integration.
+4. **Testing and Deployment**
+   - QA testing, bug fixing (Week 5)
+   - Dependencies: Completed frontend and backend.
+5. **Evaluation and Adjustments**
+   - Post-launch feedback analysis (Week 6)
+   - Dependencies: Website live.
 
-## 2. Task Breakdown with Dependencies
-- Set up project repository  
-    - Depends on meeting with the client
-- Develop Home Page
-    - Depends on project setup
-- Develop Projects Page
-    - Depends on project setup
-- Create Contact Page
-    - Depends on the completion of Home and Projects Pages
-- Dark/Light Mode Implementation
-    - Depends on completion of all pages
-- Testing and Optimization
-    - Depends on completion of all development tasks
-- Deployment
-    - Depends on successful completion of testing
+## Resource Allocation
+- **Frontend Developer:** Tasks related to creating the UI and integration with backend API.
+- **Backend Developer:** Tasks involving API development and database management in MongoDB.
+- **QA Engineer:** Testing the website’s functionality and performance.
+- **Project Manager (Me):** Oversee project execution and coordination among the team.
 
-## 3. Resource Allocation
-- **Project Manager:** 100% 
-- **Frontend Developer:** 80%
-- **Backend Developer:** 80%
-- **UI/UX Designer:** 50%
-- **QA Engineer:** 60%
-- **DevOps Engineer:** 40%
+## Risk Assessment and Mitigation Strategies
+1. **Delay in Requirements Gathering**
+   - Mitigation: Schedule focused meetings with the client to finalize requirements quickly.
+2. **Integration Issues between Frontend and Backend**
+   - Mitigation: Regular updates and integration testing during development phases.
+3. **Performance and Security Issues**
+   - Mitigation: Conduct performance testing and security audits before launch.
 
-## 4. Risk Assessment and Mitigation Strategies
-- **Risk:** Delays in feedback from the client
-  - **Mitigation:** Regular check-ins and set clear deadlines for feedback
-- **Risk:** Technical challenges with implementing features (dark/light mode)
-  - **Mitigation:** Allocate additional time for research and development
-- **Risk:** Performance issues due to heavy graphics
-  - **Mitigation:** Plan for performance optimization early in the development
-
-## 5. Communication Plan
-- Weekly meetings with the development team to discuss progress and obstacles
-- Bi-weekly meetings with the client to share updates and gather feedback
-- Use project management tools (like Trello or Jira) for task tracking and collaboration
+## Communication Plan
+- **Weekly Team Meetings:** To discuss progress and roadblocks.
+- **Bi-weekly Client Updates:** To ensure alignment with client expectations.
+- **Documentation:** Maintain thorough documentation for all features and changes for future reference.
