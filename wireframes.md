@@ -1,14 +1,24 @@
-# Wireframes
+# Wireframes for Key Pages
 
-## Home Page Wireframe:
-- **Hero Section:** A full-width banner with an engaging image or animation. Overlay text that includes the client’s name and a brief tagline.
-- **About Me Section:** A section below the hero with a brief bio about the client’s background and skills.
-- **Featured Projects:** Visual thumbnails for each project with short descriptions and links to view more.
+## Home Page Wireframe
+- **Sections:**
+   - Hero Section: A full-width section with a welcome message and a call-to-action button.
+   - About Me: A brief introduction or biography with a photo.
+   - Featured Projects: Thumbnails of project images with links.
 
-## Projects Page Wireframe:
-- **Gallery/List Format:** A grid layout for displaying projects. Each project card includes an image, title, brief description, and buttons linking to the live demo and repository.
-- **Filter/Sort Options:** For users to easily navigate through projects by category or year.
+## Projects Page Wireframe
+- **Layout:**
+  - A grid layout showcasing projects. Each grid item includes:
+    - Project thumbnail
+    - Project title
+    - Short description
+    - Link button to view more details.
 
-## Contact Page Wireframe:
-- **Contact Form:** A structured form with labeled fields for the user's name, email, message, and a submit button.
-- **Contact Information:** Additional details such as email and social media links for alternative contact methods.
+## Contact Page Wireframe
+- **Components:**
+  - Contact Form: Input fields for name, email, and message.
+  - Submit button.
+
+## Responsive Design Considerations
+- Ensure wireframes adapt to mobile and desktop layouts.
+- Collapse navigation into a hamburger menu on mobile devices.
