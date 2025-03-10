@@ -1,24 +1,16 @@
-# Wireframes for Key Pages
+## Wireframes for Key Pages
 
-## Home Page Wireframe
-- **Sections:**
-   - Hero Section: A full-width section with a welcome message and a call-to-action button.
-   - About Me: A brief introduction or biography with a photo.
-   - Featured Projects: Thumbnails of project images with links.
+### Home Page
+- **Header**: Logo, Navigation Links (About Me, Projects, Skills, Experience, Contact).
+- **Hero Section**: Introductory text about the developer and a call-to-action button.
+- **About Me Section**: Brief personal background and image.
+- **Projects Section**: Grid layout displaying project cards with images, titles, brief descriptions, and links to project demos and source code.
+- **Skills Section**: Categorized list of skills for frontend, backend, and tools.
+- **Experience Section**: Timeline or list of relevant work experiences.
+- **Contact Section**: Introduction and a contact form.
 
-## Projects Page Wireframe
-- **Layout:**
-  - A grid layout showcasing projects. Each grid item includes:
-    - Project thumbnail
-    - Project title
-    - Short description
-    - Link button to view more details.
+### Projects Page
+- Similar layout to the Home Page, focusing exclusively on showcasing projects in detail.
 
-## Contact Page Wireframe
-- **Components:**
-  - Contact Form: Input fields for name, email, and message.
-  - Submit button.
-
-## Responsive Design Considerations
-- Ensure wireframes adapt to mobile and desktop layouts.
-- Collapse navigation into a hamburger menu on mobile devices.
+### Contact Page
+- Simple layout with a contact form for user inquiries.
