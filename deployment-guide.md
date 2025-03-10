@@ -1,43 +1,39 @@
 # Deployment Guide for Portfolio Website
 
-## Overview
-This guide provides the steps to deploy the Portfolio Website using the configured CI/CD pipeline and Docker.
-
 ## Prerequisites
-- Ensure that Docker and Docker Compose are installed on your server.
-- Access to the server terminal.
-- Repository access to the GitHub repository.
+- Node.js v14
+- Docker and Docker Compose
+- MongoDB
 
-## Steps to Deploy
-1. **Clone the Repository**
-   Run the following command to clone the repository:
-   ```bash
+## Setting Up the Environment
+1. Clone the repository:
+   ```
    git clone https://github.com/yrks12/portfolio-website.git
    cd portfolio-website
    ```
 
-2. **Build Docker Images**
-   Use Docker Compose to build the images specified in the `docker-compose.yml`:
-   ```bash
-   docker-compose build
+2. Install dependencies:
+   ```
+   npm install
    ```
 
-3. **Run Docker Containers**
-   Start the application using Docker Compose:
-   ```bash
-   docker-compose up -d
+3. Set up environment variables in a `.env` file:
    ```
-   This will run both the web application and MongoDB as a service.
-
-4. **Access the Application**
-   Open your browser and navigate to `http://<your-server-ip>:5000` to see the deployed application.
-
-5. **Monitor Logs**
-   To see logs for the application, you can run:
-   ```bash
-   docker-compose logs
+   MONGO_URI=mongodb://localhost:27017/portfolio
+   EMAIL_USER=your-email@example.com
+   EMAIL_PASS=your-email-password
    ```
 
-6. **Backup and Recovery**
-   - For MongoDB, run the `mongodump` command to create a backup.
-   - Ensure to periodically backup your Docker volumes as specified in the `docker-compose.yml` file.
+## Running the Application
+1. Build and run the Docker containers:
+   ```
+   docker-compose up --build
+   ```
+
+2. Access the application at `http://localhost:5000`
+
+## CI/CD Pipeline
+- Upon pushing changes to the `main` branch, the pipeline will run automated tests and deploy the application if tests pass.
+
+## Backup and Recovery
+- Automated daily backups of the MongoDB database are configured. Ensure to check the backup logs.
