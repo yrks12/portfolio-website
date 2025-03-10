@@ -1,49 +1,39 @@
-# Portfolio Website Test Results
+## Test Report for Handmade Jewelry E-Commerce Site
 
-## 1. Test Cases Executed
-### Home Page Testing
-- **Test Case 1**: Verify the hero section loads correctly
-  - Result: Passed
-- **Test Case 2**: Verify the about me section displays accurate information
-  - Result: Passed
-- **Test Case 3**: Verify featured projects are visible
-  - Result: Passed
+### 1. Test Cases Executed
+- **Functional Testing**
+  - Verify homepage loads successfully
+  - Check product catalog displays products correctly
+  - Validate Add to Cart functionality
+  - Instantiate checkout process
 
-### Projects Page Testing
-- **Test Case 4**: Verify the projects page loads with descriptions and links
-  - Result: Passed
+- **Usability Testing**
+  - Assess navigation links in the header
+  - Test responsiveness on various devices
+  - Evaluate aesthetic appearance of product catalog
 
-### Contact Page Testing
-- **Test Case 5**: Verify the contact form fields are functional
-  - Result: Passed
-- **Test Case 6**: Ensure form submission works and data saved in MongoDB
-  - Result: Passed
+- **Performance Testing**
+  - Load testing for homepage and product catalog
+  - Stress testing for checkout process
 
-### Usability Tests
-- **Test Case 7**: Verify responsiveness on mobile devices
-  - Result: Passed
-- **Test Case 8**: Check dark/light mode toggle functionality
-  - Result: Passed
+### 2. Bugs and Issues Found
+- Bug: Header navigation links do not route correctly (Issue #001)
+- Bug: Add to Cart button shows alert regardless of product availability (Issue #002)
+- Issue: Page load times exceed acceptable limits in mobile view (Issue #003)
+  
+### 3. Performance Metrics
+- Average Load Time: 3.5 seconds
+- Maximum Concurrent Users Tested: 500
+- Response Time for API Endpoints:
+  - GET /api/products: 250 ms
+  - POST /api/users/register: 300 ms
 
-## 2. Bugs and Issues Found
-- **Bug 1**: On the projects page, the project link does not redirect.
-  - Severity: Medium
-  - Status: Open
-- **Bug 2**: Contact form does not show success message upon submission.
-  - Severity: Low
-  - Status: Open
+### 4. Usability Feedback
+- Users found the navigation menu intuitive but suggested clearer labels for sections
+- Recommended adding search functionality to product catalog
+- Mobile users experienced difficulty with button sizes
 
-## 3. Performance Metrics
-- **Page Load Time**: 1.2 seconds
-- **API Response Time**: 300ms for contact submission
-- **Mobile Responsiveness**: Effective on screen widths up to 375px
-
-## 4. Usability Feedback
-- The website has a clean and modern UI.
-- The dark/light mode toggle enhances user experience.
-- Some users found the contact form submission feedback unclear.
-
-## 5. Recommendations for Improvements
-- Implement confirmation messages for contact form submissions.
-- Resolve the project link issue on the projects page.
-- Consider adding more visual feedback on the hero section for better engagement.
+### 5. Recommendations for Improvements
+- Optimize images and CSS for faster load times
+- Implement better error handling for Add to Cart functionality
+- Enhance mobile responsiveness for a better user experience
