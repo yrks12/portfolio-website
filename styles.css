@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#about-me, #featured-projects {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+dark-mode {
+    background-color: #333;
+    color: white;
+}
