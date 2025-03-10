@@ -1,35 +1,35 @@
-# Requirements Specification
-    
-## Project Overview
-This portfolio website will showcase professional work, skills, and experience in a visually appealing and user-friendly manner.
+**Requirements Specification Document for Portfolio Website Project**
 
-## User Personas
-1. **Potential Employers** - Looking for qualified candidates
-2. **Clients** - Seeking services for their projects
-3. **Collaborators** - Interested in partnership opportunities
+**1. Project Overview:**  
+This project entails the creation of a professional portfolio website for a full-stack web developer. The website will serve as a platform to showcase the developer's projects, skills, and experience. It will also provide an avenue for potential employers or clients to contact the developer.
 
-## Functional Requirements
-- Responsive design for all devices
-- Project showcase with filtering capabilities
-- Contact form with validation
-- Blog section for sharing insights
-- Dark/light mode toggle
+**2. User Personas:**  
+- **Full-Stack Web Developer:** Needs a platform to exhibit projects and skills to attract clients and employers.  
+- **Potential Employers/Clients:** Looking for an in-depth view of the developer’s capabilities and projects.  
+- **General Users:** Interested in the developer's background and skillset.
 
-## Non-functional Requirements
-- Fast loading times (< 2 seconds)
-- Secure contact form
-- SEO optimization
-- Accessibility compliance (WCAG 2.1)
+**3. Functional Requirements:**  
+- The website should have the following sections:  
+  - **About Me:** Personal introduction to the developer.  
+  - **Projects:** Display project cards with images, descriptions, and links to live demos and source code.  
+  - **Skills:** Categorize skills into frontend, backend, and tools.  
+  - **Experience:** Outline relevant work experience.  
+  - **Contact:** A form for users to submit inquiries, with input validation.
 
-## Technical Specifications
-- Frontend: HTML5, CSS3, JavaScript, React
-- Backend: Node.js, Express
-- Database: MongoDB
-- Deployment: Netlify/Vercel for frontend, Heroku for backend
+**4. Non-Functional Requirements:**  
+- The website should have a modern and clean design.  
+- Ensure responsiveness across all devices (desktops, tablets, and mobile phones).  
+- The website should load quickly and be optimized for performance.
 
-## Timeline and Milestones
-- Week 1: Planning and design
-- Week 2-3: Frontend development
-- Week 4: Backend development
-- Week 5: Testing and refinement
-- Week 6: Deployment and launch
+**5. Technical Specifications:**  
+- **Frontend:** HTML, CSS, JavaScript, React  
+- **Backend:** Node.js, Express  
+- **Database:** MongoDB  
+- **Email Handling:** Nodemailer for sending messages through the contact form.
+
+**6. Timeline and Milestones:**  
+- **Week 1:** Requirement gathering and initial design mockups.  
+- **Week 2-3:** Frontend development and UI/UX testing.  
+- **Week 4-5:** Backend development and integration with the frontend.  
+- **Week 6:** Testing and bug fixing.  
+- **Week 7:** Deployment of the website and final review.
