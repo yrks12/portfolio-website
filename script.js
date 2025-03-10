@@ -1,14 +1,12 @@
-const themeToggle = document.getElementById('theme-toggle');
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
 
-themeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
-    localStorage.setItem('theme', currentTheme);
-});
-
-window.onload = () => {
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    if (savedTheme === 'dark') {
-        document.body.classList.add('dark-mode');
+    // Validation (as an example)
+    if (name && email && message) {
+        alert('Thank you for your message, ' + name + '!');
+        // Here you would typically send this data to your backend.
     }
-};
+});
