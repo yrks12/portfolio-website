@@ -1,24 +1,20 @@
 # User Flow Diagrams
 
-## Home Page:
-1. Visitor lands on the home page.
-2. Visitor sees the hero section, about me section, and featured projects.
-3. From the home page, the visitor can:
-   - Click on featured projects to view more details.
-   - Navigate to the Projects page using the navigation bar.
-   - Navigate to the Contact page using the navigation bar.
+## Home Page User Flow
+1. User lands on the Home Page.
+2. User can navigate to About Me, Featured Projects, or Contact by scrolling or clicking navigation links.
+3. User can click on project thumbnails to view project details.
 
-## Projects Page:
-1. User accesses the Projects page from the navigation.
-2. User can view all project cards in a grid layout.
-3. User can:
-   - Click on a project card to view project details.
-   - Use filter/sort options to narrow down projects by category or year.
-   - Navigate back to the Home or Contact page.
+## Projects Page User Flow
+1. User lands on the Projects Page.
+2. User can click on each project to view detailed descriptions and links.
+3. User can navigate back to the Home Page or Contact Page via navigation links.
 
-## Contact Page:
-1. User navigates to the Contact page from the navigation.
-2. User views the contact form.
-3. User fills in their name, email, and message, and clicks the submit button.
-4. User receives confirmation of successful submission.
-5. User can navigate back to the Home or Projects page at any time.
+## Contact Page User Flow
+1. User lands on the Contact Page.
+2. User fills out the contact form with their name, email, and message.
+3. User submits the form by clicking the Submit button.
+4. Confirmation message is displayed after successful submission. User can return to Home or Projects Page afterward.
+
+## Dark/Light Mode Toggle
+- The user can switch between dark and light modes in the settings or toggles, affecting the entire website theme.
