@@ -1,19 +1,12 @@
-## Design System Components
+# Design System
 
-### Color Scheme
-- **Primary Color**: #3498db (sky blue) for headers and buttons.
-- **Secondary Color**: #2c3e50 (midnight blue) for backgrounds.
-- **Accent Color**: #ecf0f1 (light grey) for sections and form fields.
+## Color Scheme
+- **Primary Color**: #FFC107 (Amber)
+- **Secondary Color**: #795548 (Brown)
+- **Background Color**: #FFFFFF (White)
+- **Accent Color**: #009688 (Teal)
 
-### Typography
-- **Font Family**: "Roboto", sans-serif for body text.
-- **Heading Font**: "Montserrat", sans-serif for titles and headers.
-
-### Button Component
-- Styled consistently with primary color, border-radius, and hover effects.
-
-### Card Component
-- Standardized design for project cards including image, title, and description.
-
-### Form Component
-- Uniform styles for input fields and validation messages.
+## Typography
+- **Headline Font**: 'Montserrat', sans-serif
+- **Body Font**: 'Roboto', sans-serif
+- **Size and Weight**: Headlines at 24pt bold; body text at 16pt regular
