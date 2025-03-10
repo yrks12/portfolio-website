@@ -1,39 +1,30 @@
-# Deployment Guide for Portfolio Website
+# Deployment Guide for Handmade Jewelry E-Commerce Site
 
-## Prerequisites
-- Node.js v14
-- Docker and Docker Compose
-- MongoDB
+## Step 1: Environment Setup
+- Ensure that Node.js (version 14) and Docker are installed on your system.
+- Clone the repository:
+  ```bash
+  git clone https://github.com/yrks12/portfolio-website.git
+  cd portfolio-website
+  ```
 
-## Setting Up the Environment
-1. Clone the repository:
-   ```
-   git clone https://github.com/yrks12/portfolio-website.git
-   cd portfolio-website
-   ```
+## Step 2: Docker Configuration
+- Navigate to the root of the project where the `Dockerfile` and `docker-compose.yml` are located.
+- Build and run the containers:
+  ```bash
+  docker-compose up --build
+  ```
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
+## Step 3: Accessing the Application
+- Once the containers are running, you can access the application by opening a web browser and navigating to `http://localhost:5000`
+- Ensure the MongoDB service is up by testing the database connection if applicable.
 
-3. Set up environment variables in a `.env` file:
-   ```
-   MONGO_URI=mongodb://localhost:27017/portfolio
-   EMAIL_USER=your-email@example.com
-   EMAIL_PASS=your-email-password
-   ```
+## Step 4: CI/CD Pipeline
+- The CI/CD pipeline is configured using GitHub Actions and will automatically deploy on pushing to the main branch.
 
-## Running the Application
-1. Build and run the Docker containers:
-   ```
-   docker-compose up --build
-   ```
+## Step 5: Monitoring and Logs
+- Monitoring should be set up using tools like New Relic or Datadog.
+- Logs can be viewed from the container console output or set up to persist in a logging service.
 
-2. Access the application at `http://localhost:5000`
-
-## CI/CD Pipeline
-- Upon pushing changes to the `main` branch, the pipeline will run automated tests and deploy the application if tests pass.
-
-## Backup and Recovery
-- Automated daily backups of the MongoDB database are configured. Ensure to check the backup logs.
+## Step 6: Backup Procedures
+- Ensure that MongoDB backups are scheduled using `mongodump` and `mongorestore` scripts for disaster recovery.
