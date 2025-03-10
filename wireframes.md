@@ -1,16 +1,16 @@
-## Wireframes for Key Pages
+# Wireframes
 
-### Home Page
-- **Header**: Logo, Navigation Links (About Me, Projects, Skills, Experience, Contact).
-- **Hero Section**: Introductory text about the developer and a call-to-action button.
-- **About Me Section**: Brief personal background and image.
-- **Projects Section**: Grid layout displaying project cards with images, titles, brief descriptions, and links to project demos and source code.
-- **Skills Section**: Categorized list of skills for frontend, backend, and tools.
-- **Experience Section**: Timeline or list of relevant work experiences.
-- **Contact Section**: Introduction and a contact form.
+### 1. Home Page
+- Clean hero section
 
-### Projects Page
-- Similar layout to the Home Page, focusing exclusively on showcasing projects in detail.
+### 2. Product Catalog Page
+- Filter sidebar and grid layout
 
-### Contact Page
-- Simple layout with a contact form for user inquiries.
+### 3. Product Detail Page
+- Detailed view with product options
+
+### 4. Shopping Cart Page
+- Summary and total pricing
+
+### 5. Checkout Page
+- User input and payment methods
