@@ -1,33 +1,33 @@
-# Portfolio Website Test Cases
+## Test Cases for Handmade Jewelry E-Commerce Site
 
-## Home Page Testing
-- **Test Case 1**: Verify the hero section loads correctly
-  - Result: Passed
-- **Test Case 2**: Verify the about me section displays accurate information
-  - Result: Passed
-- **Test Case 3**: Verify featured projects are visible
-  - Result: Passed
+### Test Cases Executed
 
-## Projects Page Testing
-- **Test Case 4**: Verify the projects page loads with descriptions and links
-  - Result: Passed
+#### Functional Testing
+1. **Verify homepage loads successfully** 
+   - Expected: Homepage should display without errors.
 
-## Contact Page Testing
-- **Test Case 5**: Verify the contact form fields are functional
-  - Result: Passed
-- **Test Case 6**: Ensure form submission works and data saved in MongoDB
-  - Result: Passed
+2. **Check product catalog displays products correctly** 
+   - Expected: All products should appear with correct details.
 
-## Usability Tests
-- **Test Case 7**: Verify responsiveness on mobile devices
-  - Result: Passed
-- **Test Case 8**: Check dark/light mode toggle functionality
-  - Result: Passed
+3. **Validate Add to Cart functionality** 
+   - Expected: Products can be added to cart and alert displays confirmation.
 
-## Additional Test Cases for API
-- **Test Case 9**: Verify API endpoint for contact form submission (/api/contact)
-  - Result: Passed
+4. **Instantiate checkout process** 
+   - Expected: The checkout page loads with cart details.
 
-## Bug Tracking
-- **Bug 1**: On the projects page, the project link does not redirect. (Severity: Medium, Status: Open)
-- **Bug 2**: Contact form does not show success message upon submission. (Severity: Low, Status: Open)
+#### Usability Testing
+5. **Assess navigation links in the header** 
+   - Expected: All links should navigate to the respective sections correctly.
+
+6. **Test responsiveness on various devices** 
+   - Expected: Layout adapts seamlessly across devices.
+
+7. **Evaluate aesthetic appearance of product catalog** 
+   - Expected: Catalog delivers a visually appealing and organized display.
+
+#### Performance Testing
+8. **Load testing for homepage and product catalog** 
+   - Expected: Pages should load within 3 seconds under normal load.
+
+9. **Stress testing for checkout process** 
+   - Expected: System should handle a minimum of 500 users without crashing.
