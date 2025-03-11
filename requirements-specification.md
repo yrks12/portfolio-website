@@ -1,31 +1,35 @@
-# Requirements Specification Document
+# Requirements Specification
+    
+## Project Overview
+This portfolio website will showcase professional work, skills, and experience in a visually appealing and user-friendly manner.
 
-## 1. Project Overview
-This project aims to create an e-commerce site for handmade jewelry, providing users with an appealing online platform to browse and purchase unique jewelry items.
+## User Personas
+1. **Potential Employers** - Looking for qualified candidates
+2. **Clients** - Seeking services for their projects
+3. **Collaborators** - Interested in partnership opportunities
 
-## 2. User Personas
-- **Customer**: A person who is looking to buy handmade jewelry.
-- **Admin**: A person who manages the product inventory and processes orders.
+## Functional Requirements
+- Responsive design for all devices
+- Project showcase with filtering capabilities
+- Contact form with validation
+- Blog section for sharing insights
+- Dark/light mode toggle
 
-## 3. Functional Requirements
-- **Product Catalog**: Users should be able to view a catalog of all available jewelry, including images, descriptions, and prices.
-- **Shopping Cart**: Users should be able to add products to a shopping cart, modify quantities, and remove items.
-- **Payment Integration**: The site should support multiple payment methods including credit/debit cards and PayPal.
+## Non-functional Requirements
+- Fast loading times (< 2 seconds)
+- Secure contact form
+- SEO optimization
+- Accessibility compliance (WCAG 2.1)
 
-## 4. Non-functional Requirements
-- **Performance**: The site should load in under 3 seconds on a standard broadband connection.
-- **Scalability**: The architecture should support an increasing number of product listings and concurrent users.
+## Technical Specifications
+- Frontend: HTML5, CSS3, JavaScript, React
+- Backend: Node.js, Express
+- Database: MongoDB
+- Deployment: Netlify/Vercel for frontend, Heroku for backend
 
-## 5. Technical Specifications
-- **Frontend**: HTML, CSS, JavaScript frameworks (React or Vue.js)
-- **Backend**: Node.js with Express, MongoDB for the database
-- **Hosting**: Cloud-based solution (AWS or Azure)
-
-## 6. Timeline and Milestones
-- **Week 1-2**: Requirement Gathering and Initial Design
-- **Week 3-4**: Frontend Development
-- **Week 5-6**: Backend Development and Integration
-- **Week 7**: Testing and QA
-- **Week 8**: Launch
-
-This document outlines the key requirements and specifications for the e-commerce jewelry site.
+## Timeline and Milestones
+- Week 1: Planning and design
+- Week 2-3: Frontend development
+- Week 4: Backend development
+- Week 5: Testing and refinement
+- Week 6: Deployment and launch
